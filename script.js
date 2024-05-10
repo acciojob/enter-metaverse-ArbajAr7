@@ -2,6 +2,6 @@
 function changetext(){
 	document.getElementById('status').textContent = "Entered Metaverse";
 }
-document.getElementById('htmlbody').innerHTML += "<p id='status'>Enter the Metaverse</p>";
+document.getElementById('htmlbody').innerHTML += "<h1><p id='status'>Enter the Metaverse</p><h1>";
 document.getElementById('htmlbody').innerHTML += "<button id='enterBtn'>Enter</button>";
 document.getElementById('enterBtn').addEventListener("click",changetext);
